@@ -206,6 +206,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  max-width: 1440px;
 }
 .abilities {
   font-weight: 500;
@@ -295,12 +296,19 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--button-hoover);
+  border-color: var(--button-hoover);
 }
 .svg-social {
   fill: var(--second-background-color);
 }
 .customers {
   padding: 120px 0;
+}
+.customers-topic {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--secondary-color);
+  margin-bottom: 72px;
 }
 .customers-list {
   display: flex;
@@ -443,7 +451,7 @@ img {
   align-items: baseline;
 }
 .footer-left {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 .footer-social {
   font-weight: 500;
