@@ -331,6 +331,7 @@ img {
 .customers-link:focus,
 .customers-link:hover {
   color: var(--button-hoover);
+  border-color: var(--button-hoover);
 }
 .customers-icon {
   fill: currentColor;
